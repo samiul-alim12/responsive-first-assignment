@@ -376,4 +376,15 @@ hr{
     #amount{
         padding: 20px 80px;
     }
+    /* newsletter */
+    .newsletter-content, .spam-message{
+        padding: 20px;
+    }
+    .newsletter{
+        margin: 20px;
+    }
+    #email{
+        padding: 20px;
+    }
+    
 }
