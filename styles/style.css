@@ -1,0 +1,353 @@
+.work-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F1F1F3;
+}
+/*all shared style */
+.gray{
+    color: 0E0E0E;
+    opacity: 50%;
+}
+.text-news{
+color: #0E0E0E;
+font-size: 32px;
+font-weight: bold;
+opacity: 80%;
+}
+.card-titles{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 24px;
+}
+.ash{
+    color: #0E0E0E;
+    opacity: 70%;
+    font-size: 16px;
+}
+.btn-share{
+    background-color: #006A50;
+    font-size: 18px;
+    font-weight: 700px;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    border-radius: 8px;
+    border-style: none;
+}
+.read-more{
+    color:#FFFFFF ;
+    padding: 13px 26px;
+    background-color:#006A50 ;
+    border-style: none;
+    margin-top: 24px;
+    font-size: 18px;
+    font-weight: 700px;
+    border-radius: 8px;
+}
+/* nav style */
+.nav{
+    display: flex;
+    align-items: center;
+    margin: 30px 160px;
+    justify-content: space-between;
+}
+h3{
+    width: 220px;
+    font-size: 28px;
+    font-weight: bold;
+}
+.btn{
+    padding: 15px 30px 15px 30px;
+   border-color: #006A50;
+   color: #006A50;
+   font-size: 18px;
+   font-weight: 700px;
+   border-radius: 8px;
+}
+/* banner section style*/
+.banner{
+    background-color: #C6E4D6;
+    display: flex;
+    margin: 20px 160px 80px 160px;
+    border-radius: 24px;
+    justify-content: space-between;
+   
+    
+}
+ .banner-content{
+    padding: 117px 64px 117px 60px;
+    
+
+}
+.subtitle{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.title{
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 24px;  
+}
+.imges{
+    padding: 50px 24px ;
+   
+    
+     
+}
+/* card style */
+.card{
+    margin:80px 160px 32px 160px;
+
+}
+
+.description{
+    margin-bottom: 32px;
+}
+.card-container{
+    display: flex;
+    gap: 20px;
+    
+    
+}
+/* 1st card */
+.first-card{
+    background-color: #A6C2F2;
+    border-radius: 16px;
+   
+}
+.img{
+    padding: 32px 240px 0px 32px;
+}
+.details{
+    padding:24px 32px;
+}
+.card-title{
+    color: #0E0E0E;
+    opacity: 80%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+.learn-more{
+    margin-top: 24px;
+    background-color: #6C54F5;
+    border-style: none;
+    border-radius:8px ;
+    padding: 11px 20px;
+    font-size: 16px;
+    font-weight:700px ;
+    color: #FFFFFF;
+}
+/* 2nd card */
+.second-card{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    
+}
+
+.second{
+    background-color: #09A15C;
+}
+/* 3rd card */
+.third-card{
+    background-color: #F7EBCF;
+    border-radius: 16px;
+}
+.third{
+    background-color: #FFC239;
+}
+
+/* quote section style */
+
+.quote{
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: left-top;
+    background-position-x: 24px;
+    background-position-y: 25px;
+    margin: 32px 138px 80px 160px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+.quote-details{
+    padding: 48px 24px;
+}
+.name{
+    margin-top: 12px;
+    margin-bottom: 4px;
+    color: #0E0E0E;
+    opacity: 80%;
+    font-weight: 700px;
+    font-size: 20px;
+}
+
+/* news section style */
+.news{
+    margin: 80px 160px;
+}
+.news-content{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 24px;
+    margin-top:32px ;
+    margin-bottom: 24px;
+
+}
+.news-details{
+    padding: 56px 48px 56px 32px;
+}
+.imge{
+    border-radius: 65px;
+    width: 408px;
+    height: 306px;
+    padding: 48px 32px 48px 48px;
+}
+.for-space{
+    margin-left: 12px;
+}
+/* donate section style */
+.donate{
+    margin: 80px 160px;
+}
+.about-donate{
+    text-align: center;
+    margin-bottom: 32px;
+}
+.second-btn{
+    display: flex;
+    justify-content: center;
+   gap: 24px;
+   margin: 0px 104px;
+   
+}
+.btn-primary{
+    color: #0E0E0E;
+   opacity: 80%;
+   font-weight: bold;
+    font-size: 40px;
+    padding: 40px;
+   background-color: #FFFFFF;
+   border-style: none;
+   border-radius: 16px;
+}
+.bgclr{
+    background-color: #C6E4D6;
+}
+.text-center{
+    text-align: center;
+}
+#amount{
+    padding: 20px 420px;
+    background-color: #FFFFFF;
+    border-style: none;
+   margin-top: 32px;
+}
+/* subscribe newsletter style */
+.newsletter{
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    margin: 80px 160px;
+    text-align: center;
+}
+.newsletter-title{
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.newsletter-content{
+    padding: 80px 265px 24px 265px;
+}
+.form-center{
+    display: flex;
+   justify-content: center;
+   
+}
+#email{
+    padding: 18px 400px 18px 40px;
+    background-color: #FFFFFF;
+    border-style: none;
+}
+.subscribe-button{
+    padding: 17px 34px;
+    color: #FFFFFF;
+    font-weight: 700px;
+    font-size: 18px;
+    background-color: #006A50;
+    border-style: none;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.spam-message{
+    padding: 24px 329px 80px 329px;
+}
+/* footer style */
+.footer-container{
+   background-color: #FFFFFF;
+   margin-top: 80px;
+ 
+}
+
+.footer-title{
+    padding-top: 50px;
+    color: #0E0E0E;
+    font-size: 28px;
+    font-weight: 700px;
+    text-align: center; 
+    width: auto;
+}
+
+.footer-image{
+   text-align: center;
+   padding-bottom: 50px;
+}
+.ftr{
+    margin-right: 23px;
+}
+hr{
+    margin:32px 240px;
+    color: #0E0E0E;
+    opacity: 30%;
+}
+/* make responsive */
+.hide{
+    display: none;
+}
+@media screen and (max-width:576px) {
+    /* header */
+    .nav{
+        flex-direction: column;
+    }
+    .nav > h3{
+        margin-bottom: 10px;
+    }
+    .nav > .btn{
+        padding: 15px;
+
+    }
+    /* banner */
+    .banner{
+        flex-direction: column;
+        background: none;
+        margin: 10px;
+    }
+    .imges > img{
+        
+        width: 100%;
+        padding: 5px;
+    }
+    .banner-content{
+        padding: 10px;
+    }
+    .banner-content > .button{
+        margin-left: 50px;
+    }
+}
