@@ -347,9 +347,9 @@ hr{
     .banner-content{
         padding: 10px;
     }
-    .banner-content > .button{
+    /* .banner-content > .button{
         margin-left: 50px;
-    }
+    } */
     /* card */
     .card-container{
         flex-direction: column;
@@ -374,7 +374,7 @@ hr{
         font-size: 20px;
     }
     #amount{
-        padding: 20px 80px;
+        padding: 20px;
     }
     /* newsletter */
     .newsletter-content, .spam-message{
@@ -385,6 +385,9 @@ hr{
     }
     #email{
         padding: 20px;
+    }
+    .form-center{
+        flex-direction: column;
     }
     
 }
